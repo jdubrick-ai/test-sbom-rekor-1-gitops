@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-sbom-rekor-1-database-config
+data:
+  VECTORDB_HOST: "test-sbom-rekor-1-database"
+  VECTORDB_PORT: ""
